@@ -1,0 +1,16 @@
+.form {
+    &__input {
+        transform: skew(-45deg);
+        padding-left: 20px;
+        &::placeholder {
+            transform: skew(45deg);
+        }
+    }
+    &__button {
+        transform: skew(-45deg);
+        &__text {
+            display: block;
+            transform: skew(45deg);
+        }
+    }
+}    
