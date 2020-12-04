@@ -81,4 +81,19 @@ body {
             margin-left: 20px;
         }
     }
+    &__sucsess {
+        display: none;
+        font-size: 20px;
+        position: absolute;
+        transform: skew(45deg);
+        margin-top: -100px;
+        color: rgb(143, 25, 25);
+        &_true {
+            display: block;
+        }
+        @media screen and (max-width: 768px) {
+            transform: skew(0);
+            margin-left: 20px;
+        }
+    }
 }    
