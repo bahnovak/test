@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import './style.scss';
 
-const requestUrl = 'http://jsonplaceholder.typicode.com/posts';
+const requestUrl = 'https://jsonplaceholder.typicode.com/posts';
 
 const input = document.querySelector('.form__input');
 const button = document.querySelector('.form__button');
